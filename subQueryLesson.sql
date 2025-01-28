@@ -46,4 +46,3 @@ WHERE
 	ps.Tariff > (
     SELECT avg(ps2.Tariff) FROM PatientStay ps2
    );
-
